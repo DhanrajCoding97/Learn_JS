@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+}
+
+.main-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-container {
+    min-height: 400px;
+    min-width: 500px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #88E828;
+    border-radius: 1.5rem;
+}
